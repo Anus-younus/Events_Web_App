@@ -201,7 +201,7 @@
     }
 
     .show {
-        transform: translateX(50%);
+        transform: translateX(60%);
     }
 
     .navbar > .navbar-nav {
