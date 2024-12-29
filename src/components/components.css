@@ -172,7 +172,7 @@
     }
 
     .navbar {
-        height: 20vh;
+        height: 10vh;
         justify-content: space-between;
         padding: 20px;
     }
@@ -197,10 +197,11 @@
         color: #AC906C;
         font-family: "sweat-sans";
         transition: .5s all ease;
+        z-index: 1000;
     }
 
     .show {
-        transform: translateX(40%);
+        transform: translateX(50%);
     }
 
     .navbar > .navbar-nav {
@@ -229,12 +230,16 @@
     }
     .card-container {
         padding: 0px;
+        z-index: 10;
     }
     .card-text {
         font-size: 12px;
     }
     .bottom {
         height: 200vh;
+    }
+    .bars {
+        font-size: 20px;
     }
 }
 
@@ -272,7 +277,7 @@
     }
 
     .show {
-        transform: translateX(45%);
+        transform: translateX(40%);
     }
 
     .navbar > .navbar-nav {
